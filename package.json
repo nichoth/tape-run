@@ -1,5 +1,5 @@
 {
-  "name": "tape-run",
+  "name": "@nichoth/tape-run",
   "description": "Headless tape test runner",
   "version": "11.0.0",
   "repository": {
@@ -9,7 +9,8 @@
   "homepage": "https://github.com/juliangruber/tape-run",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "bin": {
     "tape-run": "./bin/run.js"
