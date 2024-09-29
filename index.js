@@ -1,4 +1,4 @@
-var browserRun = require('browser-run')
+var browserRun = require('@nichoth/browser-run')
 var finished = require('@juliangruber/tap-finished');
 var through = require('through');
 var throughout = require('throughout');
